@@ -12,7 +12,7 @@ git push heroku master
 ## Gotchas
 
 - gulp <3 to "compile" your app into javascript ```target/```
-- package.json postinstall / prestart hooks scripts 
+- package.json ```postinstall``` / ```prestart``` hooks scripts 
 
 ```javascript
 "scripts": {
@@ -26,4 +26,5 @@ git push heroku master
 web: node target/app.js
 ```
 
-TA-DA!
+![TA-DA](https://raw.githubusercontent.com/lfreneda/how-to-coffeescript-on-heroku/master/tada-will-smith-rage-face.png) ~~~ TA-DA! ~~~
+
